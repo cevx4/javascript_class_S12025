@@ -1,4 +1,0 @@
-/*
-This the javascript code that will be
-executed as part of our html page
-*/
