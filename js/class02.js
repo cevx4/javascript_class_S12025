@@ -1,4 +1,10 @@
 
+/*
+    Author: Roberto Cevallos
+    Date:   08/05/2025
+    Note:   This is our second javascript class code
+*/
+
 
 var targetParagram = document.getElementById("ourTargetPara");
 
