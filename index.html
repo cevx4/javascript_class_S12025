@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <!--
+<!--
         Author: Roberto Cevallos
         Date:   01/05/2025
         Note:   This is our first javascript class code
     -->
-    <head>
-      <title>Our JavaScript Class S1 2025</title>  
 
-    </head>
+<head>
+    <title>Our JavaScript Class S1 2025</title>
 
-    <body>
+</head>
 
-        <form>
-            <input type="button" value="run welcome message" onclick="welcomeMessage('Simon')">
-        </form>
-        
-        <p id="ourTargetPara"></p>
-        
-        <script src="js/class03_2.js"></script>
+<body>
 
-    </body>
+    <form name="ourForm" onsubmit="return checkForm()">
+        Please enter a car Brand:
+        <input type="text" id="ourCarBrandTxtbx" onfocus="changeColour(this)" />
+        <span id="userInputValue"></span>
+        <br />
+        Please enter a car year:
+        <input type="text" id="ourCarYearTxtbx" />
+        <br />
+
+        Please enter your email:
+        <input type="text" id="ourEmailAddressTxtbx" />
+        <br />
+
+        <input type="submit" value="submit"  />
+    </form>
+
+    <script src="js/class04.js"></script>
+
+</body>
+
 </html>
-
